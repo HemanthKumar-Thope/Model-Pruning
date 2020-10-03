@@ -1,5 +1,11 @@
+#Import all the libraries requried
+import tensorflow as tf
+import keras
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 # Load MNIST dataset
-# Here we ar with the tensorflow default datasets Loading and segregating the dataset into train and test 
+# Here we are with the tensorflow default datasets Loading and segregating the dataset into train and test 
 #--------------------------------------------------------------------------------------------------------
 mnist = keras.datasets.mnist
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
